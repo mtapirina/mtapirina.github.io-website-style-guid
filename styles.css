@@ -1,0 +1,434 @@
+/* yeseva-one-regular - latin-ext_latin_cyrillic-ext_cyrillic */
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/yeseva-one-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/yeseva-one-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/yeseva-one-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/yeseva-one-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/yeseva-one-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/yeseva-one-v20-latin-ext_latin_cyrillic-ext_cyrillic-regular.svg#YesevaOne') format('svg'); /* Legacy iOS */
+}
+/* philosopher-regular - latin_cyrillic */
+
+@font-face {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/philosopher-v19-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/philosopher-v19-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/philosopher-v19-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/philosopher-v19-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/philosopher-v19-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/philosopher-v19-latin_cyrillic-regular.svg#Philosopher') format('svg'); /* Legacy iOS */
+  }
+  /* philosopher-italic - latin_cyrillic */
+  @font-face {
+    font-family: 'Philosopher-italic';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/philosopher-v19-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/philosopher-v19-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/philosopher-v19-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/philosopher-v19-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/philosopher-v19-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/philosopher-v19-latin_cyrillic-italic.svg#Philosopher') format('svg'); /* Legacy iOS */
+  }
+  /* philosopher-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Philosopher-bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/philosopher-v19-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/philosopher-v19-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/philosopher-v19-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/philosopher-v19-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/philosopher-v19-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/philosopher-v19-latin_cyrillic-700.svg#Philosopher') format('svg'); /* Legacy iOS */
+  }
+
+  /* exo-2-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/exo-2-v20-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v20-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v20-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v20-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v20-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v20-latin_cyrillic-regular.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Exo-2-bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/exo-2-v20-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v20-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v20-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v20-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v20-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v20-latin_cyrillic-700.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-italic - latin_cyrillic */
+  @font-face {
+    font-family: 'Exo-2-italic';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/exo-2-v20-latin_cyrillic-italic.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v20-latin_cyrillic-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v20-latin_cyrillic-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v20-latin_cyrillic-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v20-latin_cyrillic-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v20-latin_cyrillic-italic.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+
+/*
+    font-family: 'Yeseva One', cursive;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+*/
+
+/*Typography-Section*/
+h1{ 
+    font-size: 300%; 
+    color:#5d3b1d ;
+
+}
+
+h2{
+    font-size: 220%;
+    color:#5d3b1d ;
+
+}
+h3{
+    font-size: 170%;
+    color:#5d3b1d ;
+
+}
+h4{
+    font-size: 120%;
+    color:#5d3b1d ;
+
+}
+
+h1,h2,.yeseva p{
+    font-family: 'Yeseva One', cursive; 
+}
+h3,h4, .exo p {
+    font-family: 'Exo 2', sans-serif;
+}
+
+a{
+    color:#088CA8;
+    text-decoration:underline;
+}
+
+p, .name{
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+.bold, .bold-italic {
+    font-family: 'Philosopher-bold', sans-serif;
+}
+.italic{
+    font-family: 'Philosopher-italic', sans-serif;
+}
+
+.bold-italic{
+    font-style: italic;
+}
+
+.exo .bold, .exo .bold-italic, a,  .button-flat, .button-box, .button-static{
+    font-family: 'Exo-2', sans-serif;
+    font-weight: 700;
+}
+
+.exo .italic{
+    font-family: 'Exo-2-italic', sans-serif;
+}
+.exo .bold-italic{
+    font-style: italic;
+}
+
+
+.name {
+    text-decoration: underline;
+    color: #A8662C;
+    text-align: center;
+}
+
+#site-name{
+    color:#bff3ff;
+    text-shadow: 3px 6px 2px black;
+}
+/*body-section*/
+body{
+    text-align: center;
+    background: linear-gradient(#074857,#088CA8,#90E3F5) ;
+}
+/*main-section*/
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+section{
+    border: 5px solid #A8662C;
+    background-color: #fcf3ea;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+div, section{
+    padding: 10px;
+    margin: 10px auto;
+
+}
+
+/*nav- header*/
+.header-nav li{
+    width: auto;
+    margin: 10px 10px;
+    display: inline-block;
+}
+.header-nav li a{
+    font-family: 'Exo-2', sans-serif;
+    color: #fcf3ea;
+}
+
+
+
+/*COLOR*/
+.color-box{
+    border: 3px solid #5d3b1d;
+    border-radius: 5%;
+    width: 20%;
+    min-height: 60px;
+    margin: 30px 30px;
+    display: inline-block;
+}
+
+
+/*Main Color Palette*/
+.desert{
+   background-color: #F5A056;
+}
+.tierra{
+    background-color: #A8662C;
+}
+.dark-beige{
+    background-color: #F7DFCA;
+}
+
+.deep-sea{
+    background-color: #088CA8;
+}
+
+.light-water{
+    background-color: #90E3F5;
+
+}
+/*secondary color palette*/
+
+.desert2{
+    background-color: #f48320;
+ }
+ .tierra2{
+     background-color: #5d3b1d;
+ }
+ .dark-beige2{
+     background-color: #fcf3ea;
+ }
+ 
+ .deep-sea2{
+     background-color: #074857;
+ }
+ 
+ .light-water2{
+     background-color: #bff3ff;
+ }
+/*BUTTONS*/
+/*button 3D*/
+.button-box{
+    display: inline-block;
+    font-weight: 700;
+    text-align: center;
+    color: #F7DFCA;
+    border: 2px solid #A8662C; 
+    text-shadow: 2px 3px 4px black;
+    box-shadow: 2px 4px  6px black;
+    background: radial-gradient(#90E3F5, #088CA8, #074857);
+    width: 20%;
+    margin: 40px 20px;
+    transform: perspective(500px) rotateY(-15deg);
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+.button-box:hover {
+    transform: perspective(500px) rotateY(15deg);
+    background: radial-gradient( #074857,#088CA8,#90E3F5);
+    text-shadow: -2px 3px 4px black;
+    box-shadow: -2px 4px  6px black;
+    cursor: pointer;
+}
+
+.button-box::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, white, transparent);
+    left: -100%;
+    transition: 0.5s;
+}
+
+.button-box:hover::before {
+    left: 100%;
+}
+.button-box:active{
+    background: radial-gradient(#F7DFCA, #F5A056,#A8662C);
+    transition: 0.5s;
+}
+
+/*button gradient static*/
+.button-static{
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid #A8662C; 
+    color: #F7DFCA;
+    text-shadow: 2px 3px 4px black;
+    background: radial-gradient(#90E3F5, #088CA8, #074857);
+    border-radius: 5px; 
+    box-shadow: 0px 5px #A8662C;
+    text-align: center;
+    width: 20%;
+    margin: 40px 20px;
+}
+
+.button-static:hover{
+    cursor: pointer;
+    background: radial-gradient(#088CA8,#90E3F5);
+}
+
+.button-static:active{
+    margin-top: 5px;
+    box-shadow: 0px 2px;
+    background: radial-gradient(#F7DFCA, #F5A056,#A8662C);  
+}
+
+/*2d button*/
+.button-flat{
+    display: inline-block;
+    
+    font-weight: 700;
+    border: 2px solid #A8662C; 
+    color: #F7DFCA;
+    text-shadow: 2px 3px 4px black;
+    background-color: #088CA8;
+    border-radius: 5px;  
+    box-shadow: 0px 5px #A8662C;
+    text-align: center;
+    width: 20%;
+    margin: 40px 20px;
+}
+
+.button-flat:hover{
+    cursor: pointer;
+    background-color:#90E3F5;
+}
+
+.button-flat:active{
+    margin-top: 5px;
+    box-shadow: 0px 2px;
+    background-color:  #F5A056;
+}
+
+/*Outlined Button*/
+.button{
+    display: inline-block;
+    font-family: 'Exo-2', sans-serif;
+    font-weight: 700;
+    border: 2px solid #088CA8; 
+    color: #A8662C;
+    border-radius: 5px;  
+    background-color: none;
+    box-shadow: 0px 5px #088CA8;
+    text-align: center;
+    width: 20%;
+    margin: 40px 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    margin-top: 5px;
+    box-shadow: 0 0;
+}
+
+a:visited{
+    color:#074857;
+}
+a:hover{
+    color: #90E3F5;
+}
+a:active{
+    color: #f48320;
+}
+.oval{
+
+    border-radius: 2em;
+}
+.round{
+
+    border-radius: 30%;
+}
+
+/*LOGO*/
+.logo-box{
+    width: 100%;
+    margin:70px auto;
+}
+
+.logo-box img{
+    width: 30%;
+    display: inline-block;
+    
+}
+
+/*Footer*/
+footer{
+    display: inline-block;
+    width: auto;
+    margin: 20px auto;
+    background-color: #fcf3ea;
+    border: 6px solid #A8662C;
+
+}
+
+#avatar{
+    border-radius: 50%;
+    border: 4px solid #A8662C; 
+    width: 20%; 
+    
+}
+.ava{
+    text-align: center;
+}
+
+ 
+  
